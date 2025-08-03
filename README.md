@@ -1,6 +1,20 @@
 # 🔧 Azure DevOps Task Creator Extension
 
-This is a Chrome extension that allows you to generate and create Azure DevOps tasks using natural language and Gemini AI.
+Easily generate and create Azure DevOps tasks from natural language using AI.
+
+
+---
+
+## 🖼️ Screenshots
+
+### 🔹 Extension Popup
+<img src="./1.png" width="400" />
+
+### 🔹 Generated Task Preview
+<img src="./2.png" width="400" />
+
+### 🔹 Generated Task Preview
+<img src="./3.png" width="400" />
 
 ## ✨ Features
 
@@ -16,3 +30,4 @@ This is a Chrome extension that allows you to generate and create Azure DevOps t
 ```bash
 git clone https://github.com/abhishek-sharma-2001/devops-task-extension.git
 cd devops-task-extension
+
