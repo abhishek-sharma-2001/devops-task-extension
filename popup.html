@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DevOps Task Creator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 16px;
+      width: 320px;
+    }
+    textarea, input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 6px;
+      margin-bottom: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+    }
+    button {
+      background-color: #0078d4;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+    }
+    button:hover {
+      background-color: #005a9e;
+    }
+    .section {
+      margin-top: 12px;
+    }
+    #taskPreview {
+      display: none;
+    }
+    label {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>DevOps Task Creator</h2>
+
+  <label for="userInput">What task do you want to create?</label>
+  <textarea id="userInput" placeholder="e.g., Fix order submission bug in production..."></textarea>
+  <button id="generateBtn">🎨 Generate Task</button>
+
+  <div id="taskPreview" class="section">
+    <label>Task Title:</label>
+    <input id="taskTitle" />
+
+    <label>Task Description:</label>
+    <textarea id="taskDesc" rows="6"></textarea>
+
+    <button id="createBtn">🚀 Create Task</button>
+  </div>
+
+  <script src="popup.js"></script>
+  <script src="config.js"></script>
+</body>
+</html>
